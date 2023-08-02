@@ -1,0 +1,320 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Noto+Serif+Vithkuqi&family=Raleway:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:ital,wght@1,300&family=Noto+Serif+Vithkuqi&family=Raleway:wght@100&display=swap');
+body{
+    margin: 0%;
+} 
+
+header {
+  background-color: rgba(0, 0, 0, 0.959); 
+  padding: 10px 50px;
+  display: flex;
+  color: #ffffff; 
+  justify-content: space-between;
+  align-items: center;
+  font-family: Noto Serif Vithkuqi;
+ 
+}
+
+.cabecalho{
+  color: white;
+  font-size: 24px;
+  margin: 0px; 
+  display: flex;
+  align-items: center;
+  
+}
+
+header a{
+text-decoration: none;
+color: #fff;
+font-size: 13px;
+}
+
+
+
+header ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+
+
+header li {
+  margin: 0;
+  padding: 10px 10px; 
+  cursor: pointer; 
+  font-size: small;
+  
+}
+
+
+nav li:hover {
+  background-color: rgba(255, 51, 0, 0.342);
+  border-radius: 5px;
+  transition: background-color 0.5s;
+  color: rgb(201, 186, 186);
+  
+}
+
+#container{
+    
+    height: 98vh;
+    background-size: 100% 100%;
+    background-color: black;
+    position: relative;
+    background-image: url(/images/pizza-show.jpg); 
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.headline {
+  background-color: rgba(0, 0, 0, 0.644);
+  padding: 10px;
+  width: 100%;
+  
+  
+  font-family: Montserrat, sans-serif;
+  
+  padding: 10px 20px 10px 20px;
+  
+}
+
+.headline p{
+  padding: 10px 20px 10px 50px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  
+  font-size: 25px;
+  text-align: center;
+}
+
+
+#container2{
+  box-shadow: 1px 5px 20px 20px rgba(0, 0, 0, 0.774);
+    height: 80vh;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, 0.973);
+    position: relative;
+    padding: 25px;
+    display: flex;
+    align-items: center; 
+    
+}
+
+.sobre {
+    color: white;
+    font-family: Inter;
+    margin-left: 40px;
+    text-align: justify;
+    flex: 1;
+    padding: 0px;
+    
+    
+  
+    
+      
+    
+}  
+
+.pizzaiolo{
+    background-image: url(/images/chef-de-uniforme-branco-preparar-uma-pizzaa_1157-27027.webp);
+    width: 400px;
+    height: 300px;
+    opacity: 0.8;
+    background-size: cover;
+    color: white;
+   
+}
+
+
+
+
+
+#container3{
+    
+    height: 160vh;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding-right: 150px;
+    padding-left: 150px;
+    background-color: rgba(223, 168, 132, 0.808);
+    position: relative;
+    
+
+
+}
+
+ .combos {
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+    
+  }
+  .guarana {
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+.pizza{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+  }
+
+  .bolo{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .muçarela{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .calabresa{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+ .napolitana{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+ .chocolate{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .prestigio{
+    border: 1px solid #ff0000bd;
+    padding: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ .banana{
+    border: 1px solid #ff0000bd;
+    
+    padding: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+ }
+ 
+ 
+ .img{
+    width: 178px;
+    height: 150px;
+  }
+  .combos h2 {
+    font-size: 200px;
+    margin-bottom: 5px;
+  }
+  
+  .combos p {
+    
+    margin: 5px 0;
+  }
+
+  .salgada {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+    
+  }
+
+
+  .doce {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: small;
+  }
+  
+  footer{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.botao-carrinho {
+  background-color: #ff0000b4; 
+  color: #fff;
+  padding: 8px 16px; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 14px; 
+  cursor: pointer; 
+}
+
+.botao-carrinho:hover {
+  background-color: #e00000;
+}
+
+
+@media (max-width: 768px) {
+  #container2 {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  
+
+  .sobre {
+    margin: 20px 0;
+    text-align: center;
+    font-size: small;
+  }
+
+  #container3{
+    flex-direction: column;
+    padding: 15px;
+    height: 170vh;
+    
+    
+  }
+}
+  
